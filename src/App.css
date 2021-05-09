@@ -84,6 +84,13 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, grey 100%);
   transform: translate(-50%, -50%);
   animation: ring 2.0s infinite;
 }
+
+.imgAndri{
+  width:60%;
+ 
+
+  
+}
 @keyframes ring {
   0% {
     width: 150px;
