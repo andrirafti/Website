@@ -24,6 +24,9 @@ const p1 = () => {
   const p4 = () => {
     window.open('https://personal-training-gyms.netlify.app/')
   }
+  const p5=()=>{
+    window.open('https://andriflix.netlify.app')
+  }
 
 
   //this is what makes AOS fades SHOWING
@@ -84,7 +87,19 @@ const p1 = () => {
 
                 
           </Tilt>
-          </div>
+        </div>
+        <div data-aos="fade-up" className="centerme">
+      <Tilt  options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
+                    
+                    <h1>Project 5</h1>
+                    <p>React,Ruby-On-Rails,SQL</p>
+                    <div>
+          ___________________________________
+                    </div>
+        <button onClick={p5} >View Project 5</button>
+
+      </Tilt>
+        </div>
         </div>
       </div>
   
