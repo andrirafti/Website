@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import Tilt from 'react-vanilla-tilt'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom';
-
+import './Projects.css'
 export default function AboutMe() {
 
 
@@ -35,12 +35,15 @@ const p1 = () => {
 //can use fadeleft, fade right,etc..
   },[])
   return (
-    <div data-aos="fade-up" className="centerme">
+    <div data-aos="fade-up" className="card">
+      <header className="header3">Projects</header>
       <div className="card">
-    <h1 className="MyProject"> My Projects</h1>
+    
                   <Tilt  options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
                     
-        <h1>Project 1</h1>
+          <h1>Project 1</h1>
+          <img style={{width: "80%"}} className="img" src="images/P1.jpg"/>
+
         <p>Basic HTML/CSS/Vanilla JS</p>
         <div>
           ___________________________________
@@ -48,11 +51,13 @@ const p1 = () => {
         <button onClick={p1} >View Project 1</button>
     
         </Tilt>
-        <div data-aos="fade-up" className="centerme">
+        <div data-aos="fade-up" className="card">
       <Tilt  options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
                     
-                    <h1>Project 2</h1>
-                    <p>REACT Front-End,Air-Table Backend</p>
+            <h1>Project 2</h1>
+            <img style={{width: "80%"}} className="img" src="images/P2.jpg"/>
+
+                    <p>React ,Air-Table </p>
                     <div>
           ___________________________________
                     </div>
@@ -60,12 +65,14 @@ const p1 = () => {
 
       </Tilt>
         </div>
-        <div data-aos="fade-up" className="centerme">
+        <div data-aos="fade-up" className="card">
       <Tilt  options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
                     
-                    <h1>Project 3</h1>
-        <p>REACT Front-End</p>
-        <p>BackEnd: Express,MongoDB</p>
+            <h1>Project 3</h1>
+            <img style={{width: "80%"}} className="img" src="images/P3.jpg"/>
+
+        <p>React,Mongoose,Express</p>
+        
                     <div>
           ___________________________________
                     </div>
@@ -74,12 +81,14 @@ const p1 = () => {
                 
           </Tilt>
         </div>
-        <div data-aos="fade-up" className="centerme">
+        <div data-aos="fade-up" className="card">
       <Tilt  options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
                     
-                    <h1>Project 4</h1>
-        <p>REACT Front-End</p>
-        <p>RUBY/Ruby-OnRails/SQL BackEnd</p>
+            <h1>Project 4</h1>
+            <img style={{width: "80%"}} className="img" src="images/P4.jpg"/>
+
+        
+        <p>React,Ruby/Ruby-OnRails/SQL</p>
                     <div>
           ___________________________________
                     </div>
@@ -88,10 +97,11 @@ const p1 = () => {
                 
           </Tilt>
         </div>
-        <div data-aos="fade-up" className="centerme">
+        <div data-aos="fade-up" className="card">
       <Tilt  options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
                     
-                    <h1>Project 5</h1>
+            <h1>Project 5</h1>
+            <img style={{width: "80%"}} className="img" src="images/P5.png"/>
                     <p>React,Ruby-On-Rails,SQL</p>
                     <div>
           ___________________________________
