@@ -13,7 +13,7 @@ export default function AboutMe() {
     <div data-aos="fade-up" className="centerme">
       <h1>About Me</h1>
                   <Tilt className="Tilt" options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
-      <img className="imgAndri"src="AndriPic.png"/>
+      <img className="imgAndri"src="Andri.jpg"/>
                     
         <p>Tenacious,Ambitious,Over-Achieving is what you would often hear my co-workers refer to me as.</p>
         <p>Every past role I always strived to not only be the best version of myself, but to also strive to learn new ways of completeing my objective more efficently and adequately. </p>
