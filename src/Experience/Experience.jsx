@@ -14,7 +14,7 @@ export default function Experience() {
     <div data-aos="fade-up" className="centerme">
       <h1>Resume:</h1>
       <div >
-        <img className="img" src="images/Andri2.png"/>
+        <img className="img" src="images/AndriResume.JPG"/>
                     
         </div>
       
