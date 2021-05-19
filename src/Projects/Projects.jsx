@@ -27,6 +27,9 @@ const p1 = () => {
   const p5=()=>{
     window.open('https://andriflix.netlify.app')
   }
+  const p6=()=>{
+    window.open('https://rainforest-amazon.netlify.app/')
+  }
 
 
   //this is what makes AOS fades SHOWING
@@ -36,18 +39,33 @@ const p1 = () => {
   },[])
   return (
     <div data-aos="fade-up" className="card">
-      <header className="header3">Projects</header>
+      <header className="header3">Reccommended Project of the month: <hr></hr></header>
+      <div data-aos="fade-up" className="card">
+      <Tilt  options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
+                    
+            <h1>Project 6</h1>
+            <img style={{width: "80%"}} className="img" src="images/P6.jpg"/>
+                    <p>React,Ruby-On-Rails,SQL</p>
+                    <div>
+          ___________________________________
+                    </div>
+        <button onClick={p6} >View Project 6</button>
+
+        </Tilt>
+      </div>
+     
+  
+      
       <div className="card">
     
                   <Tilt  options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
+       
                     
           <h1>Project 1</h1>
           <img style={{width: "80%"}} className="img" src="images/P1.jpg"/>
 
         <p>Basic HTML/CSS/Vanilla JS</p>
-        <div>
-          ___________________________________
-        </div>
+        <hr></hr>
         <button onClick={p1} >View Project 1</button>
     
         </Tilt>
@@ -58,9 +76,7 @@ const p1 = () => {
             <img style={{width: "80%"}} className="img" src="images/P2.jpg"/>
 
                     <p>React ,Air-Table </p>
-                    <div>
-          ___________________________________
-                    </div>
+                   <hr></hr>
         <button onClick={p2} >View Project 2</button>
 
       </Tilt>
@@ -73,9 +89,7 @@ const p1 = () => {
 
         <p>React,Mongoose,Express</p>
         
-                    <div>
-          ___________________________________
-                    </div>
+                   <hr></hr>
         <button onClick={p3} >View Project 3</button>
 
                 
@@ -89,9 +103,7 @@ const p1 = () => {
 
         
         <p>React,Ruby/Ruby-OnRails/SQL</p>
-                    <div>
-          ___________________________________
-                    </div>
+                  <hr></hr>
         <button onClick={p4} >View Project 4</button>
 
                 
@@ -103,10 +115,19 @@ const p1 = () => {
             <h1>Project 5</h1>
             <img style={{width: "80%"}} className="img" src="images/P5.png"/>
                     <p>React,Ruby-On-Rails,SQL</p>
-                    <div>
-          ___________________________________
-                    </div>
+                   <hr></hr>
         <button onClick={p5} >View Project 5</button>
+
+      </Tilt>
+        </div>
+        <div data-aos="fade-up" className="card">
+      <Tilt  options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
+                    
+            <h1>Project 6</h1>
+            <img style={{width: "80%"}} className="img" src="images/P6.jpg"/>
+                    <p>React,Ruby-On-Rails,SQL</p>
+                   <hr></hr>
+        <button onClick={p6} >View Project 6</button>
 
       </Tilt>
         </div>
