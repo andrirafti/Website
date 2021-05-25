@@ -8,7 +8,7 @@ const Nav = () => {
       <Link className="login"to='/Experience'> Experience</Link>
       <Link className="login"to='/Projects'> My Projects</Link>
       <Link className="login" to='/'>About Me </Link>
-      <Link className="login" to='/Certification'>Certification</Link>
+      {/* <Link className="login" to='/Certification'>Certification</Link> */}
       <Link className="login" to='/Contact'>Contact Me</Link>
       
     </div>

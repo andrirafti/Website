@@ -18,7 +18,7 @@ function App() {
       </Route>
       <Route exact path="/Projects"><Projects/></Route>
       <Route exact path="/Experience"><Experience /></Route>
-      <Route exact path="/Certification"><MyCert /></Route>
+      {/* <Route exact path="/Certification"><MyCert /></Route> */}
       <Route exact path='/Contact'><ContactMe label="Email Me" mailto="mailto:andrirafti@gmail.com"  /></Route>
     </div>
   );
