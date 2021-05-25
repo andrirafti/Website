@@ -4,13 +4,16 @@ import Tilt from 'react-vanilla-tilt'
 import { useEffect } from 'react'
 
 export default function AboutMe() {
+ 
   //this is what makes AOS fades SHOWING
   useEffect(()=>{
     Aos.init({duration:2000});
 //can use fadeleft, fade right,etc..
   },[])
   return (
+   
     <div data-aos="fade-up" className="centerme">
+      
       <h1>About Me</h1>
       <Tilt style={{"width":"800px"}}className="Tilt" options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
         <img style={{"width":"200px"}}className="imgAndri"src="Andri.jpg"/>
@@ -35,5 +38,6 @@ export default function AboutMe() {
       </ul>
       </Tilt>
       </div>
+      
   )
 }
