@@ -111,10 +111,10 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, grey 100%);
   width: 45%;
 }
 .theLink{
-  min-width: 200px;
-  min-height: 60px;
+  min-width: 100px;
+  min-height: 40px;
   font-family: 'Nunito', sans-serif;
-  font-size: 22px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-weight: 700;

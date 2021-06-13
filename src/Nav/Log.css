@@ -90,3 +90,78 @@ text-decoration: none;
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
+
+
+
+.navBar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+ right: 0px;
+  z-index: 10;
+  border: solid black 1px;
+}
+
+
+
+.navBar button {
+  position: fixed;
+  left: 40px;
+  top: 15px;
+  z-index: 10;
+  cursor: pointer;
+  background: transparent;;
+  border: none;
+}
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  
+  left: 0;
+padding: 10px;
+  top: 0;
+  margin-top: 0px;
+  height: 50vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 250px;
+  z-index: 9;
+}
+.menuNav ul{
+  margin-top: 20px;
+}
+.menuNav.showMenu {
+  width: 80%;
+  background-color: whitesmoke;
+}
+
+ a {
+  
+    display: block;
+  
+    text-decoration: none;
+    margin: 0 auto;
+    font-weight: bold;
+    max-width: fit-content;
+    max-height: fit-content;
+   
+   margin: 0 auto;
+    width: 50%;
+    
+} 
+
+
+.menuNav li:first-child {
+  margin-top: 10rem;
+}
+
+
+h1{
+  font-size: 25px;
+}
+
+
+
+

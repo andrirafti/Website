@@ -11,7 +11,7 @@ export default function Experience() {
   }, [])
   //any image in public folder can be yeeted without import//
   return (
-    <div data-aos="fade-up" className="centerme">
+    <div  style={{marginTop:'100px'}}>
       <h1>Resume:</h1>
       <div >
         <img className="img" src="images/AndriResume.JPG"/>

@@ -13,7 +13,8 @@ import ContactMe from './Contact/ContactMe'
 function App() {
   return (
     <div>
-      <Nav />
+      
+      <Nav  />
       <Route exact path="/"><AboutMe/>
       </Route>
       <Route exact path="/Projects"><Projects/></Route>
@@ -21,6 +22,7 @@ function App() {
       {/* <Route exact path="/Certification"><MyCert /></Route> */}
       <Route exact path='/Contact'><ContactMe label="Email Me" mailto="mailto:andrirafti@gmail.com"  /></Route>
     </div>
+     
   );
 }
 

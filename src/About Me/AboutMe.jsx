@@ -12,9 +12,9 @@ export default function AboutMe() {
   },[])
   return (
    
-    <div data-aos="fade-up" className="centerme">
+    <div  data-aos="fade-up" className="centerme">
       
-      <h1>About Me</h1>
+      <h1 style={{ marginTop: '100px' }} >About Me</h1>
       <Tilt style={{"width":"800px"}}className="Tilt" options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
         <img style={{"width":"200px"}}className="imgAndri"src="Andri.jpg"/>
                     

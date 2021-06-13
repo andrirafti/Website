@@ -38,12 +38,12 @@ const p1 = () => {
 //can use fadeleft, fade right,etc..
   },[])
   return (
-    <div data-aos="fade-up" className="card">
+    <div style={{marginTop:'200px'}} data-aos="fade-up" className="card">
       <header className="header3">Reccommended Project of the month: <hr></hr></header>
       <div data-aos="fade-up" className="card">
       <Tilt  options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
                     
-            <h1>Project 6</h1>
+            <h1  >Project 6</h1>
             <img style={{width: "80%"}} className="img" src="images/P6.jpg"/>
                     <p>React,Ruby-On-Rails,SQL</p>
                     <div>
