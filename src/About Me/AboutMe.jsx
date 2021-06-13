@@ -22,7 +22,7 @@ export default function AboutMe({ mailto }) {
         Having graduated General Assemblys Immersive 12 week Bootcamp I have come out with a copious amount of knowledge for Computer Science and a newly ignited passion for coding.  </h3>
         <hr></hr>
        <h2> Upcoming Projects:</h2>
-        <ul> <li>Vacation Tours </li> </ul>
+        <ul> <li>The Paradise Collection </li> </ul>
         
         <Carousel pause={null} cycle={true} >
         <Carousel.Item  >
