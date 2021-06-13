@@ -10,8 +10,8 @@
 
 }
 .card{
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   /* flex-direction: column; */
   justify-content: space-evenly;
   /* position: absolute; */

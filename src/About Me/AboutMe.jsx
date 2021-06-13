@@ -18,8 +18,8 @@ export default function AboutMe({ mailto }) {
    
     <div  data-aos="fade-up" >
       <div  >
-        <h3 style={{ marginTop: '50px',textAlign:'center' }}>My Name is Andri Rafti I am a software Engineer based off NYC.
-        Having graduated General Assemblys Immersive 12 week Bootcamp I have come out with a copious amount of knowledge for Computer Science and a newly ignited passion for coding.  </h3>
+        <h3 style={{ marginTop: '50px',textAlign:'center' }}>My name is Andri Rafti I am a Software Engineer based in NYC.
+        Having graduated General Assembly's Immersive 12 week Bootcamp, I have come out with a copious amount of knowledge for Computer Science and a newly ignited passion for coding.  </h3>
         <hr></hr>
        <h2> Upcoming Projects:</h2>
         <ul> <li>The Paradise Collection </li> </ul>

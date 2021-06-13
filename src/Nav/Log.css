@@ -136,6 +136,9 @@ padding: 10px;
   width: 80%;
   background-color: whitesmoke;
 }
+.menuNav a{
+  text-decoration: none;
+}
 
  a {
     display: block;
