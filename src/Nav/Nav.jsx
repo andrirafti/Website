@@ -22,7 +22,9 @@ const Nav = () => {
 <nav style={{ width: '100%', position: 'fixed', background: '#8C92AC' }} className="navBar">
       <h1 style={{ textAlign: 'center' }}>
       <FontAwesomeIcon icon="user"/>
-       Andri Rafti </h1>
+       Andri Rafti
+       </h1>
+
         
      
       <hr></hr>

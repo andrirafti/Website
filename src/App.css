@@ -1,6 +1,4 @@
-*{
-  text-align: center;
-}
+
 .centerme{
   display: flex;
   flex-direction: column;
@@ -85,13 +83,7 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, grey 100%);
   animation: ring 2.0s infinite;
 }
 
-.imgAndri{
-  width:50%;
 
- 
-
-  
-}
 @keyframes ring {
   0% {
     width: 150px;
@@ -136,3 +128,44 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, grey 100%);
 .Background{
   background-image: url("https://wallpapercave.com/wp/wp7039271.jpg");
 }
+
+h3{
+  font-size: calc(1.56vw + 0.8rem);
+  margin: 3rem 15px;
+  line-height: 1.2992;
+  font-family: linotype-didot;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    padding: 60px;
+}
+
+p{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 30px;
+}
+.imgAndri{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+
+
+
+
+
+
+

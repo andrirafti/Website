@@ -15,7 +15,7 @@ function App() {
     <div>
       
       <Nav  />
-      <Route exact path="/"><AboutMe/>
+      <Route exact path="/"><AboutMe  label="Email Me" mailto="mailto:andrirafti@gmail.com" />
       </Route>
       <Route exact path="/Projects"><Projects/></Route>
       <Route exact path="/Experience"><Experience /></Route>

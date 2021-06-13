@@ -1,9 +1,13 @@
 import Aos from "aos"
 import "aos/dist/aos.css";
-import Tilt from 'react-vanilla-tilt'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import "../components/FontAwesome"
+import 'bootstrap/dist/css/bootstrap.min.css';  
+import Carousel from 'react-bootstrap/Carousel' 
 
-export default function AboutMe() {
+export default function AboutMe({ mailto }) {
  
   //this is what makes AOS fades SHOWING
   useEffect(()=>{
@@ -12,31 +16,108 @@ export default function AboutMe() {
   },[])
   return (
    
-    <div  data-aos="fade-up" className="centerme">
-      
-      <h1 style={{ marginTop: '100px' }} >About Me</h1>
-      <Tilt style={{"width":"800px"}}className="Tilt" options={{max:25,speed:400,glare:false,easing:"cubic-bezier(.03,.98,.52,.99)"}}>
-        <img style={{"width":"200px"}}className="imgAndri"src="Andri.jpg"/>
-                    
+    <div  data-aos="fade-up" >
+      <div  >
+        <h3 style={{ marginTop: '50px',textAlign:'center' }}>My Name is Andri Rafti I am a software Engineer based off NYC.
+        Having graduated General Assemblys Immersive 12 week Bootcamp I have come out with a copious amount of knowledge for Computer Science and a newly ignited passion for coding.  </h3>
         <hr></hr>
+       <h2> Upcoming Projects:</h2>
+        <ul> <li>Vacation Tours </li> </ul>
+        
+        <Carousel pause={null} cycle={true} >
+        <Carousel.Item  >
+          <img  style={{backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    width: '100%',
+    height: '100%',
+    opacity: '1',
+    visibility: 'inherit',
+              zIndex: '20',
+              backgroundRepeat: 'no-repeat',
+            height:'500px'}} src="Web1.jpg" />
+
+   
+  </Carousel.Item>
+  <Carousel.Item  >
+          <img  style={{backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    width: '100%',
+    height: '100%',
+    opacity: '1',
+    visibility: 'inherit',
+              zIndex: '20',
+              backgroundRepeat: 'no-repeat',
+            height:'500px'}} src="Web2.jpg" />
+
+   
+  </Carousel.Item>
+</Carousel>
+
+
+
+        <hr></hr>
+        <h2 style={{textAlign:'center'}}>Skills</h2>
+        <h3>Languages
+         
+          <ul>
+          
+            <li><FontAwesomeIcon icon=""/> JS  </li>
+            <li>Ruby</li>
+            <li>Express</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Postgresql</li>
+            
+
+          </ul>
+        <h3>Frameworks
         <ul>
-          <li>
-            <h1>Tenacious,Ambitious,Over-Achieving is what you would often hear my co-workers refer to me as.</h1>
-          </li>
-          <li>
-        <h2>Every past role I always strived to not only be the best version of myself, but to also strive to learn new ways of completeing my objective more efficently and adequately. </h2>
-          </li>
-          <li>
-            <h2>I became interested in the Software Engineering field the Summer of 2020.</h2>
-          </li>
-          <li>
-            <h3>Over the course of the last year I have taken Udemy Courses, self studied and graduated from GA Assemblys Immersive BootCamp Program!</h3>
-          </li>
-          <li>
-            <h3>There were many times I was challenged,however I never let that deter me from always learning the next new thing. The prospect of always being able to improve your skills in such a field truly excites me and I can not wait to see where my career takes me.</h3>
-            </li>
-      </ul>
-      </Tilt>
+          
+          <li> React </li>
+              <li>RubyOnRails</li>
+              <li>Mongoose</li>
+        </ul>
+        </h3>
+        </h3>
+        <hr></hr>
+        
+      </div>
+        <img className="imgAndri"src="Andri.jpg"/>
+     
+      
+      
+  
+
+             <p>Tenacious,Ambitious,Over-Achieving is what you would often hear my co-workers refer to me as.</p>
+          
+          
+        <p>Every past role I always strived to not only be the best version of myself, but to also strive to learn new ways of completeing my objective more efficently and adequately. </p>
+         
+       
+            <p>I became interested in the Software Engineering field the Summer of 2020.</p>
+          
+            <p>Over the course of the last year I have taken Udemy Courses, self studied and graduated from GA Assemblys Immersive BootCamp Program!</p>
+          
+            <p>There were many times I was challenged,however I never let that deter me from always learning the next new thing. The prospect of always being able to improve your skills in such a field truly excites me and I can not wait to see where my career takes me.</p> 
+           
+            <h3 style={{ marginTop: '20px',fontSize:'30px',textAlign:'center' }} >Need a Project Done?
+        <Link 
+            to='#' style={{textDecoration:'underline'}}
+            onClick={(e) => {
+                window.location = mailto;
+                e.preventDefault();
+            }}
+        >
+            Contact Me
+      </Link>
+           
+       </h3>
+       
+         
+         
+         
+         
+     
       </div>
       
   )

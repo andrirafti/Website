@@ -5,16 +5,16 @@ const ContactMe = ({ mailto, label }) => {
     <div style={{ marginTop:'100px'}}className="centerit">
       <div>
         <h1>Have questions?</h1>
-        <h2>Reach out below!</h2>
+        
 </div>
-        <Link className="theLink"
-            to='#'
+        <Link 
+            to='#' style={{textDecoration:'underline'}}
             onClick={(e) => {
                 window.location = mailto;
                 e.preventDefault();
             }}
         >
-            {label}
+            Say Hi
       </Link>
 
       </div>
