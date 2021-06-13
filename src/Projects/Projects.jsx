@@ -105,7 +105,7 @@ const p1 = () => {
                    <hr></hr>
 
         
-                    <p>RainForest </p>
+                    <p>RainForest(E-commerece Amazon Clone) </p>
             <h1>Project 6</h1>
             <img className="img" src="images/P6.jpg"/>
                     <p>React,Ruby-On-Rails,SQL</p>
