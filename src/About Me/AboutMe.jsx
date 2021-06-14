@@ -97,9 +97,9 @@ export default function AboutMe({ mailto }) {
        
             I became interested in the Software Engineering field the Summer of 2020.
           
-            Over the course of the last year I have taken Udemy Courses, self studied and graduated from GA Assemblys Immersive BootCamp Program!
+            Over the course of the last year I have taken Udemy Courses, self studied and graduated from General Assemblys Software Engineering Immersive Bootcamp Program!
           
-            There were many times I had challenges to overcome,however I never let that deter me from always learning the next new thing. The prospect of always being able to improve your skills in such a field truly excites me and I can not wait to see where my career takes me.
+            There were many times I had challenges to overcome, however I never let that deter me from always learning the next new thing. The prospect of always being able to improve your skills in such a field truly excites me and I can not wait to see where my career takes me.
            </h3>
             <h3 style={{ marginTop: '20px',fontSize:'30px',textAlign:'center' }} >Need a Project Done?
         <Link 
