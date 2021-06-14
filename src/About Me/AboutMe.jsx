@@ -66,7 +66,7 @@ export default function AboutMe({ mailto }) {
             <li>Express</li>
             <li>CSS</li>
             <li>HTML</li>
-            <li>Postgresql</li>
+            <li>PostgreSQL</li>
             
 
           </ul>
@@ -75,7 +75,7 @@ export default function AboutMe({ mailto }) {
         <ul>
           
           <li> React </li>
-              <li>RubyOnRails</li>
+              <li>Ruby on Rails</li>
               <li>Mongoose</li>
         </ul>
         </h3>
