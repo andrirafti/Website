@@ -89,7 +89,7 @@ export default function AboutMe({ mailto }) {
       
   
 
-             <h3>Tenacious,Ambitious is what you would often hear my co-workers refer to me as.
+             <h3>Tenacious and ambitious is what you would often hear my coworkers refer to me as.
           
           
         Every past role I always strived to not only be the best version of myself, but to also strive to learn new ways of completeing my objective more efficently and adequately. 
