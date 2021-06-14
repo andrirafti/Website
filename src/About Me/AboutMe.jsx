@@ -70,6 +70,7 @@ export default function AboutMe({ mailto }) {
             
 
           </ul>
+          </h3>
         <h3>Frameworks
         <ul>
           
@@ -78,7 +79,7 @@ export default function AboutMe({ mailto }) {
               <li>Mongoose</li>
         </ul>
         </h3>
-        </h3>
+        
         <hr></hr>
         
       </div>
@@ -88,18 +89,18 @@ export default function AboutMe({ mailto }) {
       
   
 
-             <p>Tenacious,Ambitious is what you would often hear my co-workers refer to me as.</p>
+             <h3>Tenacious,Ambitious is what you would often hear my co-workers refer to me as.
           
           
-        <p>Every past role I always strived to not only be the best version of myself, but to also strive to learn new ways of completeing my objective more efficently and adequately. </p>
+        Every past role I always strived to not only be the best version of myself, but to also strive to learn new ways of completeing my objective more efficently and adequately. 
          
        
-            <p>I became interested in the Software Engineering field the Summer of 2020.</p>
+            I became interested in the Software Engineering field the Summer of 2020.
           
-            <p>Over the course of the last year I have taken Udemy Courses, self studied and graduated from GA Assemblys Immersive BootCamp Program!</p>
+            Over the course of the last year I have taken Udemy Courses, self studied and graduated from GA Assemblys Immersive BootCamp Program!
           
-            <p>There were many times I was challenged,however I never let that deter me from always learning the next new thing. The prospect of always being able to improve your skills in such a field truly excites me and I can not wait to see where my career takes me.</p> 
-           
+            There were many times I was challenged,however I never let that deter me from always learning the next new thing. The prospect of always being able to improve your skills in such a field truly excites me and I can not wait to see where my career takes me.
+           </h3>
             <h3 style={{ marginTop: '20px',fontSize:'30px',textAlign:'center' }} >Need a Project Done?
         <Link 
             to='#' style={{textDecoration:'underline'}}
