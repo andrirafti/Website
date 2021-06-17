@@ -57,6 +57,7 @@ export default function AboutMe({ mailto }) {
 
         <hr></hr>
         <h2 style={{textAlign:'center'}}>Skills</h2>
+        <div style={{display:'flex'}}>
         <h3>Languages
          
           <ul>
@@ -71,6 +72,7 @@ export default function AboutMe({ mailto }) {
 
           </ul>
           </h3>
+          </div>
         <h3>Frameworks
         <ul>
           
