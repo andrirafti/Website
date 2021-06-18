@@ -32,7 +32,7 @@ export default function AboutMe({ mailto }) {
         <hr></hr>
         <h2> Most Recent Project:</h2>
         <ul> <li>The Paradise Collection </li> </ul>
-        <p style={{fontSize:'18px',}}>The travel agency wanted customers to be able to wasily book their vacations as one package including flights hotels and excursions</p>
+        <p style={{fontSize:'18px',}}>The travel agency wanted customers to be able to easily book their vacations as one package including flights hotels and excursions.</p>
         <p style={{fontSize:'18px',}} >The customer finds it useful to be able to know the time for the flight and be able to compare ratings to aid their decisions while booking.</p>
         
         <Carousel pause={null} cycle={true} >
