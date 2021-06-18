@@ -130,15 +130,15 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, grey 100%);
 }
 
 h3{
-  font-size: calc(1.56vw + 0.8rem);
-  margin: 3rem 15px;
+  font-size: calc(1.26vw + 0.3rem);
+  /* margin: 3rem 15px; */
   line-height: 1.2992;
   font-family: linotype-didot;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
     letter-spacing: 0em;
     text-transform: none;
-    padding: 60px;
+    padding: 30px;
 }
 
 p{
