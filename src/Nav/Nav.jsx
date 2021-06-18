@@ -19,8 +19,8 @@ const Nav = () => {
 
   return (
     
-<nav style={{ width: '100%', position: 'fixed', background: '#8C92AC' }} className="navBar">
-      <h1 style={{ textAlign: 'center',fontSize:'25px' }}>
+<nav  className="navBar" style={{ position: 'fixed', background: '#8C92AC' }} className="navBar">
+      <h1 style={{ textAlign: 'center',fontSize:'20px' }}>
       <FontAwesomeIcon icon="user"/>
        Andri Rafti
        </h1>

@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.theP{
+  display: flex;
+  
+}
+.theUL{
+  display: flex;
+}
+@media all
+    and (max-width: 475px) 
+    and (min-width: 350px)
+{
+
+  .theP{
+
+    display: block;
+  }
+  .theUL{
+    display: block;
+  }
+
+}

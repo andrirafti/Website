@@ -32,9 +32,10 @@ export default function AboutMe({ mailto }) {
         <hr></hr>
         <h2> Most Recent Project:</h2>
         <ul> <li>The Paradise Collection </li> </ul>
-        <p style={{fontSize:'18px',}}>The travel agency wanted customers to be able to easily book their vacations as one package including flights hotels and excursions.</p>
-        <p style={{fontSize:'18px',}} >The customer finds it useful to be able to know the time for the flight and be able to compare ratings to aid their decisions while booking.</p>
-        
+        <div className="theP">
+        <p   style={{fontSize:'18px', padding:'10px'}}>The travel agency wanted customers to be able to easily book their vacations as one package including flights hotels and excursions.</p>
+        <p  style={{fontSize:'18px',padding:'10px'}} >The customer finds it useful to be able to know the time for the flight and be able to compare ratings to aid their decisions while booking.</p>
+        </div>
         <Carousel pause={null} cycle={true} >
         <Carousel.Item  >
           <img  style={{backgroundSize: 'cover',
@@ -67,9 +68,9 @@ export default function AboutMe({ mailto }) {
 
         <Link ><button onClick={p7} style={{ border: 'none', color:'blue',textDecoration:'underline',marginTop:'20px'}}>View Paradise Resorts</button></Link>
         <hr></hr>
-        <div style={{display:'flex'}}>
+        <div className="theUL" >
        
-        <div style={{display:'flex'}}>
+        <div className="theUL">
         <h3>Languages
          
           <ul>
