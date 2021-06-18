@@ -30,6 +30,9 @@ const p1 = () => {
   const p6=()=>{
     window.open('https://rainforest-amazon.netlify.app/')
   }
+  const p7=()=>{
+    window.open('https://paradisetours.netlify.app/')
+  }
 
 
   //this is what makes AOS fades SHOWING
@@ -58,7 +61,7 @@ const p1 = () => {
     
        
       <div className="card2">
-      <p>COVID Data</p>
+      {/* <p>COVID Data</p>
           <h1>Project 1</h1>
           <img  className="img" src="images/P1.jpg"/>
 
@@ -94,22 +97,31 @@ const p1 = () => {
         
         <p>React,Ruby/Ruby-OnRails/SQL</p>
         <button onClick={p4} >View Project 4</button>
-                  <hr></hr>
+                  <hr></hr> */}
 
                 
-                  <p>Netlix Replica</p>
+                  {/* <p>Netlix Replica</p>
             <h1>Project 5</h1>
             <img  className="img" src="images/P5.png"/>
                     <p>React,Ruby-On-Rails,SQL</p>
         <button onClick={p5} >View Project 5</button>
-                   <hr></hr>
+                   <hr></hr> */}
 
         
+        <p>Paradise Resorts</p>
+          
+        <img className="img" src="/Web22.jpg" />
+        <p style={{fontSize:'18px',}}>The travel agency wanted customers to be able to easily book their vacations as one package including flights hotels and excursions.</p>
+        <p style={{fontSize:'18px',}} >The customer finds it useful to be able to know the time for the flight and be able to compare ratings to aid their decisions while booking.</p>
+                    <p> Created using React,Ruby on Rails & PostgreSQL</p>
+        <button onClick={p7} >View Project </button>
+        <hr></hr>
                     <p>RainForest(E-commerece Amazon Clone) </p>
-            <h1>Project 6</h1>
-            <img className="img" src="images/P6.jpg"/>
-                    <p>React,Ruby-On-Rails,SQL</p>
-        <button onClick={p6} >View Project 6</button>
+            
+        <img className="img" src="images/P6.jpg" />
+        <p style={{fontSize:'18px',}} >Currently under design reconstruction.. Final site will appear different. </p>
+            <p> Created using React,Ruby on Rails & PostgreSQL</p>
+        <button onClick={p6} >View Project </button>
 
         </div>
         </div>  

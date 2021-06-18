@@ -37,7 +37,11 @@
   border: solid black 1px;
 }
 
-
+.open{
+ 
+  font-size: 40px;
+  height: 30px;
+}
 
 .navBar button {
   position: fixed;

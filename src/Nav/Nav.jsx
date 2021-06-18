@@ -20,7 +20,7 @@ const Nav = () => {
   return (
     
 <nav style={{ width: '100%', position: 'fixed', background: '#8C92AC' }} className="navBar">
-      <h1 style={{ textAlign: 'center' }}>
+      <h1 style={{ textAlign: 'center',fontSize:'25px' }}>
       <FontAwesomeIcon icon="user"/>
        Andri Rafti
        </h1>
@@ -32,7 +32,7 @@ const Nav = () => {
   {navbarOpen ? (
     <MdClose  className="close" style={{ color: "black", width: "30px", height: "30px" }} />
     ) : (
-      <FiMenu style={{ color: "black", width: "40px", height: "40px",marginBottom:'20px' }} />
+      <FiMenu className="open" style={{ color: "black",marginBottom:'20px' }} />
       )}
        
       </button>

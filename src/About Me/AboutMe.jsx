@@ -13,7 +13,13 @@ export default function AboutMe({ mailto }) {
   useEffect(()=>{
     Aos.init({duration:2000});
 //can use fadeleft, fade right,etc..
-  },[])
+  }, [])
+  
+  const p7=()=>{
+    window.open('https://paradisetours.netlify.app/')
+  }
+
+ 
   return (
    
     <div  data-aos="fade-up" >
@@ -21,8 +27,13 @@ export default function AboutMe({ mailto }) {
         <h3 style={{ marginTop: '50px',textAlign:'center' }}>My name is Andri Rafti, I am a Software Engineer based in NYC.
         Having graduated General Assembly's Immersive 12 week Bootcamp, I have come out with a copious amount of knowledge for Computer Science and a newly ignited passion for coding.  </h3>
         <hr></hr>
-       <h2> Upcoming Projects:</h2>
+        <h2> Upcoming Projects:</h2>
+        <p>N/A</p>
+        <hr></hr>
+        <h2> Most Recent Project:</h2>
         <ul> <li>The Paradise Collection </li> </ul>
+        <p style={{fontSize:'18px',}}>The travel agency wanted customers to be able to wasily book their vacations as one package including flights hotels and excursions</p>
+        <p style={{fontSize:'18px',}} >The customer finds it useful to be able to know the time for the flight and be able to compare ratings to aid their decisions while booking.</p>
         
         <Carousel pause={null} cycle={true} >
         <Carousel.Item  >
@@ -34,7 +45,7 @@ export default function AboutMe({ mailto }) {
     visibility: 'inherit',
               zIndex: '20',
               backgroundRepeat: 'no-repeat',
-            height:'500px'}} src="Web1.jpg" />
+            height:'500px'}} src="Web11.jpg" />
 
    
   </Carousel.Item>
@@ -47,16 +58,17 @@ export default function AboutMe({ mailto }) {
     visibility: 'inherit',
               zIndex: '20',
               backgroundRepeat: 'no-repeat',
-            height:'500px'}} src="Web2.jpg" />
+            height:'500px'}} src="Web22.jpg" />
 
    
   </Carousel.Item>
 </Carousel>
 
 
-
+        <Link ><button onClick={p7} style={{ border: 'none', color:'blue',textDecoration:'underline',marginTop:'20px'}}>View Paradise Resorts</button></Link>
         <hr></hr>
-        <h2 style={{textAlign:'center'}}>Skills</h2>
+        <div style={{display:'flex'}}>
+       
         <div style={{display:'flex'}}>
         <h3>Languages
          
@@ -81,7 +93,7 @@ export default function AboutMe({ mailto }) {
               <li>Mongoose</li>
         </ul>
         </h3>
-        
+        </div>
         <hr></hr>
         
       </div>
