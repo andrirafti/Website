@@ -98,7 +98,7 @@ export default function AboutMe({ mailto }) {
         <hr></hr>
         
       </div>
-        <img className="imgAndri"src="Andri.jpg"/>
+        <img className="imgAndri"src="Andri Profile.jpg"/>
      
       
       
