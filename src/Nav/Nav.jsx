@@ -19,15 +19,15 @@ const Nav = () => {
 
   return (
     
-<nav  className="navBar" style={{ position: 'fixed', background: '#8C92AC' }} className="navBar">
-      <h1 style={{ textAlign: 'center',fontSize:'20px' }}>
-      <FontAwesomeIcon icon="user"/>
+<nav   style={{ position: 'fixed', background: 'whitesmoke' }} className="navBar">
+      <h1 style={{ textAlign: 'center',fontSize:'20px',marginTop:'10px' }}>
+      
        Andri Rafti
        </h1>
 
         
      
-      <hr></hr>
+   
       <button onClick={handleToggle}>
   {navbarOpen ? (
     <MdClose  className="close" style={{ color: "black", width: "30px", height: "30px" }} />

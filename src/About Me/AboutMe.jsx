@@ -24,23 +24,23 @@ export default function AboutMe({ mailto }) {
    
     <div  data-aos="fade-up" >
       <div  >
-        <h3 style={{ marginTop: '50px',textAlign:'center' }}>My name is Andri Rafti, I am a Software Engineer based in NYC.
+        <h3 style={{ marginTop: '50px',textAlign:'center',fontSize:'22px' }}>My name is Andri Rafti, I am a Software Engineer based in NYC.
         Having graduated General Assembly's Immersive 12 week Bootcamp, I have come out with a copious amount of knowledge for Computer Science and a newly ignited passion for coding.  </h3>
         <hr></hr>
         <h2> Upcoming Projects:</h2>
-        <p>N/A</p>
+        <p style={{fontSize:'19px'}}>N/A</p>
         <hr></hr>
         <h2> Most Recent Project:</h2>
         <ul> <li>The Paradise Collection </li> </ul>
         <div className="theP">
-        <p   style={{fontSize:'18px', padding:'10px'}}>The travel agency wanted customers to be able to easily book their vacations as one package including flights hotels and excursions.</p>
-        <p  style={{fontSize:'18px',padding:'10px'}} >The customer finds it useful to be able to know the time for the flight and be able to compare ratings to aid their decisions while booking.</p>
+        <p   style={{fontSize:'18px', padding:'15px'}}>The travel agency wanted customers to be able to easily book their vacations as one package including flights hotels and excursions.</p>
+        <p  style={{fontSize:'18px',padding:'15px'}} >The customer finds it useful to be able to know the time for the flight and be able to compare ratings to aid their decisions while booking.</p>
         </div>
         <Carousel pause={null} cycle={true} >
         <Carousel.Item  >
           <img  style={{backgroundSize: 'cover',
     backgroundPosition: 'center center',
-    width: '100%',
+    width: '65%',
     height: '100%',
     opacity: '1',
     visibility: 'inherit',
@@ -53,7 +53,7 @@ export default function AboutMe({ mailto }) {
   <Carousel.Item  >
           <img  style={{backgroundSize: 'cover',
     backgroundPosition: 'center center',
-    width: '100%',
+    width: '65%',
     height: '100%',
     opacity: '1',
     visibility: 'inherit',
@@ -66,7 +66,7 @@ export default function AboutMe({ mailto }) {
 </Carousel>
 
 
-        <Link ><button onClick={p7} style={{ border: 'none', color:'blue',textDecoration:'underline',marginTop:'20px'}}>View Paradise Resorts</button></Link>
+        <Link ><button onClick={p7} style={{ border: 'none', color:'blue',textDecoration:'underline',marginTop:'20px',backgroundColor:'white'}}>View Paradise Resorts</button></Link>
         <hr></hr>
         <div className="theUL" >
        
@@ -75,12 +75,12 @@ export default function AboutMe({ mailto }) {
          
           <ul>
           
-            <li><FontAwesomeIcon icon=""/> JS  </li>
-            <li>Ruby</li>
-            <li>Express</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>PostgreSQL</li>
+            <li style={{fontSize:'20px'}} ><FontAwesomeIcon icon=""/> JS  </li>
+            <li style={{fontSize:'20px'}}>Ruby</li>
+            <li style={{fontSize:'20px'}}>Express</li>
+            <li style={{fontSize:'20px'}} >CSS</li>
+            <li style={{fontSize:'20px'}} >HTML</li>
+            <li style={{fontSize:'20px'}} >PostgreSQL</li>
             
 
           </ul>
@@ -89,9 +89,9 @@ export default function AboutMe({ mailto }) {
         <h3>Frameworks
         <ul>
           
-          <li> React </li>
-              <li>Ruby on Rails</li>
-              <li>Mongoose</li>
+          <li style={{fontSize:'20px'}}> React </li>
+              <li style={{fontSize:'20px'}}>Ruby on Rails</li>
+              <li style={{fontSize:'20px'}} >Mongoose</li>
         </ul>
         </h3>
         </div>
@@ -104,13 +104,13 @@ export default function AboutMe({ mailto }) {
       
   
 
-             <h3 >Tenacious and ambitious is how you would hear my coworkers refer to me .
+             <h3 style={{fontSize:'20px'}}>Tenacious and ambitious is how you would hear my coworkers refer to me .
        
        
       I always strive to be the best version of myself and learn new ways of completeing my objective efficently and adequately. 
        
        </h3>
-      <h3>
+      <h3 style={{fontSize:'20px'}} >
           I became interested in the Software Engineering field the Summer of 2020.
            
           Over the course of the last year I have taken Udemy Courses, self studied and graduated from General Assembly's Software Engineering Immersive Bootcamp Program!

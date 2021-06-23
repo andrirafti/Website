@@ -35,7 +35,8 @@
  right: 0px;
   z-index: 10;
  width: 100%;
-  border: solid black 1px;
+ height:45px;
+  
 }
 
 .open{
@@ -61,20 +62,26 @@
   
   left: 0;
 padding: 10px;
-  top: 0;
+  top: 10;
   margin-top: 0px;
-  height: 100vh;
+  height: 50vh;
   width: 0;
   overflow: hidden;
-  max-width: 250px;
+  max-width: 100%;
   z-index: 9;
 }
 .menuNav ul{
   margin-top: 20px;
 }
 .menuNav.showMenu {
-  width: 80%;
-  background-color: whitesmoke;
+  width: 100%;
+  opacity:0.9;
+  background-color: lightblue;
+}
+.menuNav.showMenu:hover {
+  width: 100%;
+  opacity:1;
+  background-color: lightblue;
 }
 .menuNav a{
   text-decoration: none;
@@ -89,7 +96,7 @@ padding: 10px;
     max-height: fit-content;
    margin: 0 auto;
     width: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     
 } 
 
