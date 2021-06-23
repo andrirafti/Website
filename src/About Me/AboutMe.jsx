@@ -38,9 +38,9 @@ export default function AboutMe({ mailto }) {
         </div>
         <Carousel pause={null} cycle={true} >
         <Carousel.Item  >
-          <img  style={{backgroundSize: 'cover',
+          <img className="CIMG" style={{backgroundSize: 'cover',
     backgroundPosition: 'center center',
-    width: '65%',
+    
     height: '100%',
     opacity: '1',
     visibility: 'inherit',
@@ -51,9 +51,9 @@ export default function AboutMe({ mailto }) {
    
   </Carousel.Item>
   <Carousel.Item  >
-          <img  style={{backgroundSize: 'cover',
+          <img  className="CIMG" style={{backgroundSize: 'cover',
     backgroundPosition: 'center center',
-    width: '65%',
+    
     height: '100%',
     opacity: '1',
     visibility: 'inherit',

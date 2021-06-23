@@ -35,7 +35,7 @@
  right: 0px;
   z-index: 10;
  width: 100%;
- height:45px;
+ height:44px;
   
 }
 
@@ -74,7 +74,7 @@ padding: 10px;
   margin-top: 20px;
 }
 .menuNav.showMenu {
-  width: 50%;
+  width: 40%;
   opacity:0.9;
   background-color: lightblue;
 }
@@ -83,13 +83,18 @@ padding: 10px;
 and (max-width: 475px) 
 and (min-width: 320px)
 {
+  .CIMG{
+    width:100%
+  }
+  
+
   .menuNav.showMenu {
     width: 100%;
     opacity:0.9;
     background-color: lightblue;
+   
   }
   .menuNav.showMenu:hover {
-   
     opacity:1;
     
   }
