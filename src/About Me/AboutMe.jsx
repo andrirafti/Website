@@ -71,7 +71,7 @@ export default function AboutMe({ mailto }) {
         <div className="theUL" >
        
         <div className="theUL">
-        <h3>Languages
+        <h3 style={{fontSize:'25px'}} >Languages
          
           <ul>
           
@@ -86,7 +86,7 @@ export default function AboutMe({ mailto }) {
           </ul>
           </h3>
           </div>
-        <h3>Frameworks
+        <h3 style={{fontSize:'25px'}} >Frameworks
         <ul>
           
           <li style={{fontSize:'20px'}}> React </li>
