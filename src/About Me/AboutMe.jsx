@@ -24,21 +24,21 @@ export default function AboutMe({ mailto }) {
    
     <div  data-aos="fade-up" >
       <div  >
-        <h3 style={{ marginTop: '50px',textAlign:'center',fontSize:'22px' }}>My name is Andri Rafti, I am a Software Engineer based in NYC.
+        <h3 className="abh3" style={{ marginTop: '50px',textAlign:'center' }}>My name is Andri Rafti, I am a Software Engineer based in NYC.
         Having graduated General Assembly's Immersive 12 week Bootcamp, I have come out with a copious amount of knowledge for Computer Science and a newly ignited passion for coding.  </h3>
         <hr></hr>
-        <h2> Upcoming Projects:</h2>
+        <h2 className="paddme"> Upcoming Projects:</h2>
         <p style={{fontSize:'19px'}}>N/A</p>
         <hr></hr>
-        <h2> Most Recent Project:</h2>
-        <ul> <li>The Paradise Collection </li> </ul>
+        <h2 className="paddme" > Most Recent Project:</h2>
+        <ul  > <li className="paddLI" >The Paradise Collection </li> </ul>
         <div className="theP">
-        <p   style={{fontSize:'18px', padding:'15px'}}>The travel agency wanted customers to be able to easily book their vacations as one package including flights hotels and excursions.</p>
-        <p  style={{fontSize:'18px',padding:'15px'}} >The customer finds it useful to be able to know the time for the flight and be able to compare ratings to aid their decisions while booking.</p>
+        <p  className="theP" >The travel agency wanted customers to be able to easily book their vacations as one package including flights hotels and excursions.</p>
+        <p   className="theP" >The customer finds it useful to be able to know the time for the flight and be able to compare ratings to aid their decisions while booking.</p>
         </div>
         <Carousel pause={null} cycle={true} >
         <Carousel.Item  >
-          <img className="CIMG" style={{backgroundSize: 'cover',
+          <img className="CIMG" style={{
     backgroundPosition: 'center center',
     
     height: '100%',
@@ -46,12 +46,12 @@ export default function AboutMe({ mailto }) {
     visibility: 'inherit',
               zIndex: '20',
               backgroundRepeat: 'no-repeat',
-            height:'500px'}} src="Web11.jpg" />
+            height:'450px'}} src="Web11.jpg" />
 
    
   </Carousel.Item>
   <Carousel.Item  >
-          <img  className="CIMG" style={{backgroundSize: 'cover',
+          <img  className="CIMG" style={{
     backgroundPosition: 'center center',
     
     height: '100%',
@@ -59,7 +59,7 @@ export default function AboutMe({ mailto }) {
     visibility: 'inherit',
               zIndex: '20',
               backgroundRepeat: 'no-repeat',
-            height:'500px'}} src="Web22.jpg" />
+            height:'450px'}} src="Web22.jpg" />
 
    
   </Carousel.Item>

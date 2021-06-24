@@ -1,5 +1,7 @@
 
-
+.paddme{
+  padding:20px
+}
 
 .centerme{
   display: flex;
@@ -131,6 +133,9 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, grey 100%);
   background-image: url("https://wallpapercave.com/wp/wp7039271.jpg");
 }
 
+.abh3{
+  font-size:22px
+}
 h3{
   font-size: calc(1.26vw + 0.3rem);
   /* margin: 3rem 15px; */
@@ -166,11 +171,17 @@ img{
 
 
 .CIMG{
-  width:65%
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 
+.paddLI{
+  padding:10px
 
+}
 
 
 

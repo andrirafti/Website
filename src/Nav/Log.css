@@ -74,7 +74,7 @@ padding: 10px;
   margin-top: 20px;
 }
 .menuNav.showMenu {
-  width: 40%;
+  width: 20%;
   opacity:0.9;
   background-color: lightblue;
 }
@@ -86,7 +86,9 @@ and (min-width: 320px)
   .CIMG{
     width:100%
   }
-  
+  .abh3{
+    font-size:18px
+  }
 
   .menuNav.showMenu {
     width: 100%;
