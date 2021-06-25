@@ -28,7 +28,7 @@ export default function AboutMe({ mailto }) {
         Having graduated General Assembly's Immersive 12 week Bootcamp, I have come out with a copious amount of knowledge for Computer Science and a newly ignited passion for coding.  </h3>
         <hr></hr>
         <h2 className="paddme"> Upcoming Projects:</h2>
-        <p style={{fontSize:'19px'}}>N/A</p>
+        {/* <p style={{fontSize:'19px'}}>N/A</p> */}
         <hr></hr>
         <h2 className="paddme" > Most Recent Project:</h2>
         <ul  > <li className="paddLI" >The Paradise Collection </li> </ul>
