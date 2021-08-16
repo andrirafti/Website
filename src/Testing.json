@@ -1,0 +1,76 @@
+{“project”: 
+  { “code”: “8342”, 
+    “name”: “St Botolphs Corner”,
+    “keywords”: [“Healthcare”],
+    “images”: 
+    [
+        “image”: {
+          “filename”:”foo.tif”,
+          “keyword”:”photographs”
+        }
+   ]
+  },
+
+  { “code”: “040”, 
+    “name”: “London Commons”,
+    “keywords”: ["Construction"],
+    “images”: 
+    [
+        “image”: {
+          “filename”:”Sites.tif”,
+          “keyword”:”photographs”
+        }
+   ]
+  },
+{ “code”: “1944”, 
+    “name”: “Booth Resturant”,
+    “keywords”: ["Lighting"],
+    “images”: 
+    [
+        “image”: {
+          “filename”:”DiningRoom.tif”,
+          “keyword”:”Action Shots”
+        }
+   ]
+  },
+  { “code”: “242”, 
+    “name”: “Clifton”,
+    “keywords”: ["Residential"],
+    “images”: 
+    [
+        “image”: {
+          “filename”:”Front.tiff”,
+          “keyword”:”photographs”
+        }
+   ]
+  }
+
+}
+
+
+
+for each file in files
+{ realtive= remove "\\server1\images\" from start of file 
+  paths = split relative into array by charachter "\"
+  project_keyword=path[0]
+  project=path[1]
+  image_keyword = path[2]
+  filename = path[3]
+  project_parts = splie project into array by charachter "-"
+  project_id = project_parts[0]
+  project_name = project_parts[1]
+
+  skip =0
+  if rigth(filename != ".tif" or ".tiff") then skip =1
+  if projet_keyword="DO NOT IMPORT" then skip=1
+
+  if skip = 0 then
+    check if project exists, if not then create
+    check if project has projet_keyword, if not then add
+    create image object with fielanme and image_keywordd
+    add image to project
+  
+
+
+
+}

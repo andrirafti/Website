@@ -23,6 +23,7 @@ export default function AboutMe({ mailto }) {
   return (
    
     <div  data-aos="fade-up" >
+      
       <div  >
         <h3 className="abh3" style={{ marginTop: '50px',textAlign:'center' }}>My name is Andri Rafti, I am a Software Engineer based in NYC.
         Having graduated General Assembly's Immersive 12 week Bootcamp, I have come out with a copious amount of knowledge for Computer Science and a newly ignited passion for coding.  </h3>
