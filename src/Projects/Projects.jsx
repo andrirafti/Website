@@ -111,16 +111,15 @@ const p1 = () => {
         <p>Paradise Resorts</p>
           
         <img className="img" src="/Web22.jpg" />
-        <p style={{fontSize:'18px',}}>The travel agency wanted customers to be able to easily book their vacations as one package including flights hotels and excursions.</p>
-        <p style={{fontSize:'18px',}} >The customer finds it useful to be able to know the time for the flight and be able to compare ratings to aid their decisions while booking.</p>
-                    <p> Created using React,Ruby on Rails & PostgreSQL</p>
+        <p style={{fontSize:'18px',}}>Designed a vacation-booking platform that enables users to book both an airline and hotel as part of the checkout process. Built a fully-functioning point of sale system, including the use of Local Storage. Utilized JavaScript/React for front-end development, and Ruby/Ruby on Rails for back-end development, as well as PostgreSQL.</p>
+     
         <button onClick={p7} >View Project </button>
         <hr></hr>
                     <p>RainForest(E-commerece Amazon Clone) </p>
             
         <img className="img" src="images/P6.jpg" />
-        <p style={{fontSize:'18px',}} >Currently under design reconstruction.. Final site will appear different. </p>
-            <p> Created using React,Ruby on Rails & PostgreSQL</p>
+        <p style={{fontSize:'18px',}} >Produced an online shopping website which allows users to view different products, add and view product reviews, and sort by category upon sign-in to the platform. Once a user is signed in, they are presented with the option to add items to their cart and continue to a checkout process. Used JavaScript/React and Ruby/Ruby on Rails for back-end in the project’s development. </p>
+      
         <button onClick={p6} >View Project </button>
 
         </div>

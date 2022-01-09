@@ -14,7 +14,7 @@ export default function Experience() {
     <div  style={{marginTop:'100px'}}>
       <h1>Resume:</h1>
       <div >
-        <img className="img" src="AndriFinal.jpg"/>
+        <img className="img" src="0001.jpg"/>
                     
         </div>
       
